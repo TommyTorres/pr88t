@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .body_backgorund {
+      background-image: url("bg1.png");
+      background-position: center;
+      background-size: cover;
+    }
+    body{
+      cursor: pointer;
+    }
+    h1
+    {
+      color: red;
+      font-size: 20px;
+    }
+    #myCanvas
+    {
+      border-width:10px;
+      background-color: white;
+      border-style:ridge;
+    }
+
+    button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 42px;
+      font-size: 16px;
+    }
+
+    input
+    {
+      margin-right: 20px;
+    }
+  </style>
+</head>
+<body class="body_backgorund">
+
+<div align="center">
+<h1>Pintar</h1>
+
+    <canvas id="myCanvas" width="800" height="400"></canvas>
+        <br><br >
+
+<!--Actividad adicional -->
+        <span>Radio - </span>  
+        <input type="text" id="radius" name="radius" value=20>
+
+        <span>Color - </span>  
+        <input type="text" id="color" name="color" value="Blue">
+        
+        <span>Ancho de linea  - </span>  
+        <input type="text" id="width_of_line" name="width_of_line" value="2">
+        <br/>
+        <button onclick="clearArea();">Limpiar área</button>
+
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,28 @@
+.body {
+  cursor: pointer;
+}
+
+h1 {
+  color: red;
+  font-size: 20px;
+}
+
+/* Use a CSS class selector instead of an ID selector */
+.body_backgorund {
+  background-image: url("bg1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 42px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+input {
+  margin-right: 20px;
+}
